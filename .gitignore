@@ -1,0 +1,6 @@
+.ipynb_checkpoints/*
+Presentations/
+backup.py
+*.pdf
+*.ipynb
+
