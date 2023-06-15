@@ -1,0 +1,22 @@
+ae:
+  nlatent: 3
+  ntrash: 2
+  qubits: 8
+
+qmodel:
+  ntrain_pts: 50
+  ntest_pts: 10
+  niters: 200
+
+ckt: # sampled unitary 
+  nrots: 2
+  nents: 2
+  n_reps: 2 
+  ent_style: "full"
+
+
+metric_str: "fidelity"
+optimizer: "rs"
+opt_params:
+  population_size: 150
+  
